@@ -97,7 +97,6 @@ C:\Users\WonCou\Source\Repos\ProgrammingApp\ProgrammingApp\bin\Debug\de\DevExpre
 C:\Users\WonCou\Source\Repos\ProgrammingApp\ProgrammingApp\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
 C:\Users\WonCou\Source\Repos\ProgrammingApp\ProgrammingApp\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
 C:\Users\WonCou\Source\Repos\ProgrammingApp\ProgrammingApp\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
-C:\Users\WonCou\Source\Repos\ProgrammingApp\ProgrammingApp\obj\Debug\ProgrammingApp.csprojResolveAssemblyReference.cache
 C:\Users\WonCou\Source\Repos\ProgrammingApp\ProgrammingApp\obj\Debug\ProgrammingApp.MainForm.resources
 C:\Users\WonCou\Source\Repos\ProgrammingApp\ProgrammingApp\obj\Debug\ProgrammingApp.Properties.Resources.resources
 C:\Users\WonCou\Source\Repos\ProgrammingApp\ProgrammingApp\obj\Debug\ProgrammingApp.csproj.GenerateResource.Cache
@@ -158,3 +157,5 @@ C:\Users\WonCou\Source\Repos\ProgrammingApp\ProgrammingApp\bin\Debug\de\DevExpre
 C:\Users\WonCou\Source\Repos\ProgrammingApp\ProgrammingApp\bin\Debug\es\DevExpress.XtraScheduler.v17.2.Core.resources.dll
 C:\Users\WonCou\Source\Repos\ProgrammingApp\ProgrammingApp\bin\Debug\ja\DevExpress.XtraScheduler.v17.2.Core.resources.dll
 C:\Users\WonCou\Source\Repos\ProgrammingApp\ProgrammingApp\bin\Debug\ru\DevExpress.XtraScheduler.v17.2.Core.resources.dll
+C:\Users\WonCou\Source\Repos\ProgrammingApp\ProgrammingApp\obj\Debug\ProgrammingApp.WechatLogin.resources
+C:\Users\WonCou\Source\Repos\ProgrammingApp\ProgrammingApp\obj\Debug\ProgrammingApp.csprojResolveAssemblyReference.cache

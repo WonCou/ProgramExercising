@@ -127,6 +127,7 @@
             this.accordionControlElement52 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement4 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.tabNavigationPage8 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.webBrowser3 = new System.Windows.Forms.WebBrowser();
             this.tabNavigationPage9 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.splitContainerControl8 = new DevExpress.XtraEditors.SplitContainerControl();
             this.accordionControl8 = new DevExpress.XtraBars.Navigation.AccordionControl();
@@ -186,6 +187,12 @@
             this.accordionControlElement87 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement88 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement89 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accordionControlElement114 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accordionControlElement115 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accordionControlElement116 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accordionControlElement119 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accordionControlElement117 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accordionControlElement118 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.tabNavigationPage4 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.splitContainerControl2 = new DevExpress.XtraEditors.SplitContainerControl();
             this.accordionControl2 = new DevExpress.XtraBars.Navigation.AccordionControl();
@@ -244,6 +251,7 @@
             this.accordionControlElement72 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement73 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement75 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.webBrowser2 = new System.Windows.Forms.WebBrowser();
             this.tabNavigationPage1 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.splitContainerControl5 = new DevExpress.XtraEditors.SplitContainerControl();
             this.accordionControl5 = new DevExpress.XtraBars.Navigation.AccordionControl();
@@ -261,8 +269,15 @@
             this.accordionControlElement57 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement58 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement59 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.tabPane1 = new DevExpress.XtraBars.Navigation.TabPane();
+            this.accordionControlElement120 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accordionControlElement121 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accordionControlElement122 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accordionControlElement123 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accordionControlElement124 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             ((System.ComponentModel.ISupportInitialize)(this.barManagerMain)).BeginInit();
+            this.tabNavigationPage8.SuspendLayout();
             this.tabNavigationPage9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl8)).BeginInit();
             this.splitContainerControl8.SuspendLayout();
@@ -943,34 +958,34 @@
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManagerMain;
             this.barDockControlTop.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.barDockControlTop.Size = new System.Drawing.Size(933, 24);
+            this.barDockControlTop.Size = new System.Drawing.Size(933, 26);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 538);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 536);
             this.barDockControlBottom.Manager = this.barManagerMain;
             this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.barDockControlBottom.Size = new System.Drawing.Size(933, 27);
+            this.barDockControlBottom.Size = new System.Drawing.Size(933, 29);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 24);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 26);
             this.barDockControlLeft.Manager = this.barManagerMain;
             this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 514);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 510);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(933, 24);
+            this.barDockControlRight.Location = new System.Drawing.Point(933, 26);
             this.barDockControlRight.Manager = this.barManagerMain;
             this.barDockControlRight.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 514);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 510);
             // 
             // barSubItem1
             // 
@@ -1080,9 +1095,20 @@
             // tabNavigationPage8
             // 
             this.tabNavigationPage8.Caption = "tabNavigationPage8";
+            this.tabNavigationPage8.Controls.Add(this.webBrowser3);
             this.tabNavigationPage8.Name = "tabNavigationPage8";
             this.tabNavigationPage8.PageText = "官方网站";
             this.tabNavigationPage8.Size = new System.Drawing.Size(915, 468);
+            // 
+            // webBrowser3
+            // 
+            this.webBrowser3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowser3.Location = new System.Drawing.Point(0, 0);
+            this.webBrowser3.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser3.Name = "webBrowser3";
+            this.webBrowser3.Size = new System.Drawing.Size(915, 468);
+            this.webBrowser3.TabIndex = 0;
+            this.webBrowser3.Url = new System.Uri("https://www.python.org/", System.UriKind.Absolute);
             // 
             // tabNavigationPage9
             // 
@@ -1456,7 +1482,13 @@
             this.accordionControlElement86,
             this.accordionControlElement87,
             this.accordionControlElement88,
-            this.accordionControlElement89});
+            this.accordionControlElement89,
+            this.accordionControlElement114,
+            this.accordionControlElement115,
+            this.accordionControlElement116,
+            this.accordionControlElement119,
+            this.accordionControlElement117,
+            this.accordionControlElement118});
             this.accordionControlElement40.Expanded = true;
             this.accordionControlElement40.Name = "accordionControlElement40";
             this.accordionControlElement40.Text = "Python小练习";
@@ -1544,6 +1576,42 @@
             this.accordionControlElement89.Name = "accordionControlElement89";
             this.accordionControlElement89.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accordionControlElement89.Text = "Python练习题14";
+            // 
+            // accordionControlElement114
+            // 
+            this.accordionControlElement114.Name = "accordionControlElement114";
+            this.accordionControlElement114.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.accordionControlElement114.Text = "Python练习题15";
+            // 
+            // accordionControlElement115
+            // 
+            this.accordionControlElement115.Name = "accordionControlElement115";
+            this.accordionControlElement115.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.accordionControlElement115.Text = "Python练习题16";
+            // 
+            // accordionControlElement116
+            // 
+            this.accordionControlElement116.Name = "accordionControlElement116";
+            this.accordionControlElement116.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.accordionControlElement116.Text = "Python练习题17";
+            // 
+            // accordionControlElement119
+            // 
+            this.accordionControlElement119.Name = "accordionControlElement119";
+            this.accordionControlElement119.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.accordionControlElement119.Text = "Python练习题18";
+            // 
+            // accordionControlElement117
+            // 
+            this.accordionControlElement117.Name = "accordionControlElement117";
+            this.accordionControlElement117.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.accordionControlElement117.Text = "Python练习题19";
+            // 
+            // accordionControlElement118
+            // 
+            this.accordionControlElement118.Name = "accordionControlElement118";
+            this.accordionControlElement118.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.accordionControlElement118.Text = "Python练习题20";
             // 
             // tabNavigationPage4
             // 
@@ -1841,7 +1909,7 @@
             this.tabNavigationPage2.Controls.Add(this.splitContainerControl9);
             this.tabNavigationPage2.Name = "tabNavigationPage2";
             this.tabNavigationPage2.PageText = "Python3.0";
-            this.tabNavigationPage2.Size = new System.Drawing.Size(915, 468);
+            this.tabNavigationPage2.Size = new System.Drawing.Size(915, 464);
             // 
             // splitContainerControl9
             // 
@@ -1850,8 +1918,9 @@
             this.splitContainerControl9.Name = "splitContainerControl9";
             this.splitContainerControl9.Panel1.Controls.Add(this.accordionControl9);
             this.splitContainerControl9.Panel1.Text = "Panel1";
+            this.splitContainerControl9.Panel2.Controls.Add(this.webBrowser2);
             this.splitContainerControl9.Panel2.Text = "Panel2";
-            this.splitContainerControl9.Size = new System.Drawing.Size(915, 468);
+            this.splitContainerControl9.Size = new System.Drawing.Size(915, 464);
             this.splitContainerControl9.SplitterPosition = 163;
             this.splitContainerControl9.TabIndex = 2;
             this.splitContainerControl9.Text = "splitContainerControl2";
@@ -1864,7 +1933,7 @@
             this.accordionControlElement60});
             this.accordionControl9.Location = new System.Drawing.Point(0, 0);
             this.accordionControl9.Name = "accordionControl9";
-            this.accordionControl9.Size = new System.Drawing.Size(163, 468);
+            this.accordionControl9.Size = new System.Drawing.Size(163, 464);
             this.accordionControl9.TabIndex = 1;
             this.accordionControl9.Text = "accordionControl9";
             // 
@@ -1980,6 +2049,16 @@
             this.accordionControlElement75.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accordionControlElement75.Text = "附录";
             // 
+            // webBrowser2
+            // 
+            this.webBrowser2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowser2.Location = new System.Drawing.Point(0, 0);
+            this.webBrowser2.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser2.Name = "webBrowser2";
+            this.webBrowser2.Size = new System.Drawing.Size(746, 464);
+            this.webBrowser2.TabIndex = 0;
+            this.webBrowser2.Url = new System.Uri("http://www.runoob.com/python3/python3-tutorial.html", System.UriKind.Absolute);
+            // 
             // tabNavigationPage1
             // 
             this.tabNavigationPage1.Caption = "tabNavigationPage1";
@@ -1995,6 +2074,7 @@
             this.splitContainerControl5.Name = "splitContainerControl5";
             this.splitContainerControl5.Panel1.Controls.Add(this.accordionControl5);
             this.splitContainerControl5.Panel1.Text = "Panel1";
+            this.splitContainerControl5.Panel2.Controls.Add(this.webBrowser1);
             this.splitContainerControl5.Panel2.Text = "Panel2";
             this.splitContainerControl5.Size = new System.Drawing.Size(915, 468);
             this.splitContainerControl5.SplitterPosition = 163;
@@ -2111,6 +2191,16 @@
             this.accordionControlElement59.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accordionControlElement59.Text = "浮点数算法：争议和限制";
             // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowser1.Location = new System.Drawing.Point(0, 0);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(746, 468);
+            this.webBrowser1.TabIndex = 0;
+            this.webBrowser1.Url = new System.Uri("http://www.runoob.com/python3/python3-tutorial.html", System.UriKind.Absolute);
+            // 
             // tabPane1
             // 
             this.tabPane1.Controls.Add(this.tabNavigationPage1);
@@ -2123,7 +2213,7 @@
             this.tabPane1.Controls.Add(this.tabNavigationPage8);
             this.tabPane1.Controls.Add(this.tabNavigationPage9);
             this.tabPane1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabPane1.Location = new System.Drawing.Point(0, 24);
+            this.tabPane1.Location = new System.Drawing.Point(0, 26);
             this.tabPane1.Name = "tabPane1";
             this.tabPane1.Pages.AddRange(new DevExpress.XtraBars.Navigation.NavigationPageBase[] {
             this.tabNavigationPage1,
@@ -2135,12 +2225,42 @@
             this.tabNavigationPage7,
             this.tabNavigationPage9,
             this.tabNavigationPage8});
-            this.tabPane1.RegularSize = new System.Drawing.Size(933, 514);
+            this.tabPane1.RegularSize = new System.Drawing.Size(933, 510);
             this.tabPane1.SelectedPage = this.tabNavigationPage2;
-            this.tabPane1.Size = new System.Drawing.Size(933, 514);
+            this.tabPane1.Size = new System.Drawing.Size(933, 510);
             this.tabPane1.TabIndex = 21;
             this.tabPane1.Text = "C";
             this.tabPane1.Click += new System.EventHandler(this.tabPane1_Click);
+            // 
+            // accordionControlElement120
+            // 
+            this.accordionControlElement120.Name = "accordionControlElement120";
+            this.accordionControlElement120.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.accordionControlElement120.Text = "Python练习题14";
+            // 
+            // accordionControlElement121
+            // 
+            this.accordionControlElement121.Name = "accordionControlElement121";
+            this.accordionControlElement121.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.accordionControlElement121.Text = "Python练习题14";
+            // 
+            // accordionControlElement122
+            // 
+            this.accordionControlElement122.Name = "accordionControlElement122";
+            this.accordionControlElement122.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.accordionControlElement122.Text = "Python练习题14";
+            // 
+            // accordionControlElement123
+            // 
+            this.accordionControlElement123.Name = "accordionControlElement123";
+            this.accordionControlElement123.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.accordionControlElement123.Text = "Python练习题14";
+            // 
+            // accordionControlElement124
+            // 
+            this.accordionControlElement124.Name = "accordionControlElement124";
+            this.accordionControlElement124.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.accordionControlElement124.Text = "Python练习题14";
             // 
             // MainForm
             // 
@@ -2155,8 +2275,9 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "MainForm";
-            this.Text = "Python Learning";
+            this.Text = "Python Easy Go";
             ((System.ComponentModel.ISupportInitialize)(this.barManagerMain)).EndInit();
+            this.tabNavigationPage8.ResumeLayout(false);
             this.tabNavigationPage9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl8)).EndInit();
             this.splitContainerControl8.ResumeLayout(false);
@@ -2430,6 +2551,20 @@
         private DevExpress.XtraBars.BarStaticItem barStaticItem38;
         private DevExpress.XtraBars.BarStaticItem barStaticItem39;
         private DevExpress.XtraBars.BarSubItem barSubItem18;
+        private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.WebBrowser webBrowser2;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement114;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement115;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement116;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement119;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement120;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement121;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement122;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement123;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement124;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement117;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement118;
+        private System.Windows.Forms.WebBrowser webBrowser3;
     }
 }
 
